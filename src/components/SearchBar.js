@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
 
 class SearchBar extends Component {
-    state = { mail: '' }
+    constructor(props){
+        super(props);
+        this.state ={
+            mail: ''
+        }
+    }
 
     onFormSubmit(e){
         e.preventDefault();

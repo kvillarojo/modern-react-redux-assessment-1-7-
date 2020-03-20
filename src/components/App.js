@@ -6,10 +6,13 @@ import {UserDetails} from "./UserDetails";
 import {Spinner} from "./Spinner";
 
 class App extends Component {
-    state = {
-        users: [],
-        isSearching: false,
-        user: []
+    constructor(props) {
+        super(props);
+        this.state = {
+            users: [],
+            isSearching: false,
+            user: []
+        }
     }
 
     onSearchSubmit(email){
