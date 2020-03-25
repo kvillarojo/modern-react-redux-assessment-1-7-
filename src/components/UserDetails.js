@@ -4,7 +4,7 @@ export const UserDetails = (props) => {
     const {avatar, email, jobTitle} = props.userDetails[0]
     return(
         <div >
-            <img className="right floated mini ui image" src={avatar}/>
+            <img className="right floated mini ui image" src={avatar} alt={''}/>
             <div className="header">
                 {email}
             </div>

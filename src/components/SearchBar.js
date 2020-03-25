@@ -16,7 +16,7 @@ class SearchBar extends Component {
     onFormSearch(e){
         this.setState({
             mail: e.target.value
-        }, () => this.props.onSearch())
+        })
     }
 
     render() {

@@ -16,13 +16,17 @@ class App extends Component {
     }
 
     onSearchSubmit(email){
-        const user = this.state.users.filter((e) => e.email === email)
-       if(user.length !== 0){
-           this.setState({user})
-       }else{
-           this.setState({user: []})
-       }
-       this.setState({isSearching: false})
+        setTimeout(() => {
+            const user = this.state.users.filter((e) => e.email === email)
+            if(user.length !== 0){
+                this.setState({user})
+            }else{
+                this.setState({user: []})
+            }
+            this.setState({isSearching: false})
+        }, 1000)
+
+        this.setState({isSearching: true})
     }
 
     generateUsers() {
@@ -40,23 +44,20 @@ class App extends Component {
         }
         console.log(items);
         this.setState({users: items})
+
     }
 
     onGetUser(){
-        const {user, isSearching} = this.state
+        const { user } = this.state
 
-        if (isSearching){
-            return (<Spinner/>)
-        }else if(user.length !== 0){
+        if(user.length !== 0){
             return (
                 <FlagCard userDetails={user}>
                     <UserDetails userDetails={user}/>
                 </FlagCard>
             )
         }else{
-            return (
-                <div>No Result</div>
-            )
+            return <div> No Result </div>
         }
     }
 
@@ -65,13 +66,15 @@ class App extends Component {
     }
 
     render () {
+        console.log(this.state.isSearching)
         return (
             <div className={'ui container'}>
                 <SearchBar
                     onSubmit={(e) => this.onSearchSubmit(e)}
-                    onSearch={() => this.setState({isSearching: true})}
                 />
-                {this.onGetUser()}
+
+                { this.state.isSearching ? <Spinner /> : this.onGetUser() }
+
             </div>
         );
     }

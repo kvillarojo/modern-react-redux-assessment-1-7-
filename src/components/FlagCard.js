@@ -12,7 +12,7 @@ export const FlagCard = props => {
                     <div className="ui container">
                         <div className="ui grid">
                             <div className="four wide column">
-                                <img src={`https://www.countryflags.io/${countryCode}/shiny/64.png`}/>
+                                <img src={`https://www.countryflags.io/${countryCode}/shiny/64.png`} alt={'flag'}/>
                             </div>
                             <div className="twelve wide column">
                                 {content}

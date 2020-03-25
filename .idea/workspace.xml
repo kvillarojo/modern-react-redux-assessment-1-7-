@@ -4,7 +4,9 @@
     <list default="true" id="1e7bb1f0-c435-4206-af1b-87107632c1b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlagCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlagCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserDetails.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,10 @@
       <updated>1584667314822</updated>
       <workItem from="1584667316346" duration="590000" />
       <workItem from="1584667911986" duration="24000" />
-      <workItem from="1584667962587" duration="20678000" />
+      <workItem from="1584667962587" duration="22309000" />
+      <workItem from="1584928239815" duration="2569000" />
+      <workItem from="1585030811187" duration="4650000" />
+      <workItem from="1585100998013" duration="3540000" />
     </task>
     <servers />
   </component>
@@ -84,17 +89,17 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1920" y="274" width="683" height="804" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584686106788" />
-    <state x="2811" y="252" width="615" height="828" key="find.popup" timestamp="1584681747240">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="891" y="272" width="615" height="808" key="find.popup" timestamp="1585118563380">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="2811" y="252" width="615" height="828" key="find.popup/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584681747240" />
+    <state x="891" y="272" width="615" height="808" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1585118563380" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/UserDetails.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
