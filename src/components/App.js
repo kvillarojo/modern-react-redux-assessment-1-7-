@@ -66,7 +66,6 @@ class App extends Component {
     }
 
     render () {
-        console.log(this.state.isSearching)
         return (
             <div className={'ui container'}>
                 <SearchBar
